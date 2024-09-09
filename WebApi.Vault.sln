@@ -5,11 +5,17 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10F64119-13D7-4BC0-B497-C215DC1480D7}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		.gitignore = .gitignore
+		Appunti.txt = Appunti.txt
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashiCorpVault.API", "src\HashiCorpVault.API\HashiCorpVault.API.csproj", "{9437C118-E747-477C-B4CE-7D4463DCD970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashiCorpVault.BusinessLayer", "src\HashiCorpVault.BusinessLayer\HashiCorpVault.BusinessLayer.csproj", "{2D47BF4B-3BB4-46FC-B4CD-13E2589C2F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashiCorpVault.Shared", "src\HashiCorpVault.Shared\HashiCorpVault.Shared.csproj", "{AB59DCA5-ACE0-4BB0-9F17-FC031F41C7DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,14 @@ Global
 		{9437C118-E747-477C-B4CE-7D4463DCD970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9437C118-E747-477C-B4CE-7D4463DCD970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9437C118-E747-477C-B4CE-7D4463DCD970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D47BF4B-3BB4-46FC-B4CD-13E2589C2F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D47BF4B-3BB4-46FC-B4CD-13E2589C2F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D47BF4B-3BB4-46FC-B4CD-13E2589C2F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D47BF4B-3BB4-46FC-B4CD-13E2589C2F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB59DCA5-ACE0-4BB0-9F17-FC031F41C7DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB59DCA5-ACE0-4BB0-9F17-FC031F41C7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB59DCA5-ACE0-4BB0-9F17-FC031F41C7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB59DCA5-ACE0-4BB0-9F17-FC031F41C7DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
