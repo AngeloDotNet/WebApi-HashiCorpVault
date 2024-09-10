@@ -8,8 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-	<PackageReference Include="HashiCorp.Vault" Version="0.3.0" />
+    <ProjectReference Include="..\HashiCorpVault.BusinessLayer\HashiCorpVault.BusinessLayer.csproj" />
   </ItemGroup>
 
 </Project>
